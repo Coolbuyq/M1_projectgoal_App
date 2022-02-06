@@ -1,9 +1,9 @@
 ## High Level Requirements
-.Features of my project
+ Features of my project
 
 ## Low Level Requirements
-.How each feature is implemented.
-.Linking Low level and High level requirements.
+ How each feature is implemented.
+ Linking Low level and High level requirements.
 
 
 ## SWOT
