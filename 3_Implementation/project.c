@@ -35,10 +35,11 @@ if(pd[j].vaccination_status==2)
 {pd[j].vaccination_status++;
 return 3;
 }
-else 
-return 0;
-}	
-}
+if(pd[j].vaccination_status==3)
+return 3;
+}}
+
+
 int covaxin_vacc_viles(int i, int vstat)
 {   
  if(pd[i].vaccination_type==1 && (vstat==1 || vstat==2))
