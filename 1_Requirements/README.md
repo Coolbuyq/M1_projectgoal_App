@@ -15,13 +15,13 @@ The local server must store the data of around 100 people where the allocated on
 ## SWOT
 
 ## 4 W's and 1H
-* Who
+# Who
 Patient who needs to be vaccinated.
-* What
+# What
 Verify the details of the patient using the alloted data.
-* When
+# When
 During the time alloted for vaccination.
-* Where
+# Where
 Local vaccination centre.
-* How
+# How
 Online registration and on field verification using local server.
