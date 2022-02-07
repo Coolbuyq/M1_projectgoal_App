@@ -97,7 +97,7 @@ while(attempt>0){
 	printf("Enter your age:\n");
 	scanf("%d",&pd[i].age);
 	printf("Enter your otp:\n");
-	scanf("%lu",&pd[i].otp);
+	scanf("%d",&pd[i].otp);
 	printf("Your Registration is successful\n");
 	break;}	
 	i++;}
@@ -187,7 +187,7 @@ while(attempt>0){
         	{i++;
         	continue;}
             printf("pd Aadhar:%li\n",pd[i].adhaar_no);
-            printf("pd Phone no:%d\n",pd[i].phone_no);
+            printf("pd Phone no:%li\n",pd[i].phone_no);
             printf("pd Age:%d\n",pd[i].age);
             printf("pd Vaccine type:%d\n",pd[i].vaccination_type);
             printf("Pd Vaccine dozes:%d\n\n",pd[i].vaccination_status);
