@@ -14,8 +14,11 @@ The local server must store the data of around 100 people where the allocated on
 Low Level Requirement
 
 ## Low Level Requirements
- How each feature is implemented.
- Linking Low level and High level requirements.
+* Only new user must be given an option to select vaccine type	
+*	Total quantity of vaccines used must be shown by EOD	
+*	Full list of patients vaccinated must be set as output	
+*	Remaining and present stock of vaccines must be tracked	
+*	Vaccine vials must be tracked for its use within a day
 
 
 ## SWOT
