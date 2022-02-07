@@ -22,6 +22,7 @@ Low Level Requirement
 
 
 ## SWOT
+![Screenshot (357)](https://user-images.githubusercontent.com/94365143/152731558-433876a9-9f9b-47a8-8f2e-e1c52cdd7f34.png)
 
 ## 4 W's and 1H
 # Who
