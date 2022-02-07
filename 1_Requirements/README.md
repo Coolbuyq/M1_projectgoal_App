@@ -5,12 +5,12 @@ Each vaccine centre will operate locally to register and allot vaccines. The bas
 
 The local server must store the data of around 100 people where the allocated online registration data will be loaded onto the local server of that local centre. Verification of the data is done based on the details provided by the patient. Once completed, the data of the vaccinated will be sent back for future use and reference.
 ## High Level Requirements
-. System should be able to access pre loaded registration data for verification	Implemented
-. User should be able to add new registrations	
-. System should recognize vaccinated patients	
-. OTP generated verification for secure registration	
-. System should recognize invalid credentials	
-. System should be updated with the time interval between two doses
+* System should be able to access pre loaded registration data for verification	Implemented
+* User should be able to add new registrations	
+* System should recognize vaccinated patients	
+* OTP generated verification for secure registration	
+* System should recognize invalid credentials	
+* System should be updated with the time interval between two doses
 Low Level Requirement
 
 ## Low Level Requirements
