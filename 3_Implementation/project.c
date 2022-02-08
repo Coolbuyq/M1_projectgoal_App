@@ -10,7 +10,7 @@ int reg_status(long a){
 	return 0;
 	else
 	{return 1;
-	printf("Enter your details for knowing your vaccination status:\n");
+
 	}
 	}
 	i++;}
