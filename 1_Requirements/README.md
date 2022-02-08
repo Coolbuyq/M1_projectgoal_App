@@ -25,7 +25,7 @@ Local vaccination centre.
 Registration and on field verification using ADHAAR nad Phone number.
 
 ## SWOT
-
+![SWOT](https://user-images.githubusercontent.com/94365143/153056308-10ccb1a3-b776-4ebe-ba62-6cb13d0216d3.jpg)
 
 ## High Level Requirements
 * System can be able to store the data and can be provided at the end of the day
