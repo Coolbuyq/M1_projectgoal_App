@@ -125,7 +125,7 @@ while(attempt>0){
             printf("pd Phone no:%li\n",pd[i].phone_no);
             printf("pd Age:%d\n",pd[i].age);
             printf("pd Vaccine type:%d\n",pd[i].vaccination_type);
-            printf("Pd Vaccine status:%d Vaccines\n",pd[i].vaccination_status-1);
+            printf("Pd Vaccine status:%d Vaccines\n\n\n",pd[i].vaccination_status);
             count++;
             result1=result1+pd[i].vaccine_viles1;
             result2=result2+pd[i].vaccine_viles2;
@@ -138,6 +138,5 @@ while(attempt>0){
     printf("COVAXIN:%d\n",result1);
     printf("COVISHIELD:%d\n",result2);
     printf("SPUTNIK:%d\n",result3);
- 
    	}
 	
