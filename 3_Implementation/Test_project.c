@@ -10,46 +10,46 @@ void tearDown(){}
 
 void test_reg_status(void)
 {
-TEST_ASSERT_EQUAL(-1,reg_status(123412341234));
-TEST_ASSERT_EQUAL(-1,reg_status(97654321023));
-TEST_ASSERT_EQUAL(-1,reg_status(756812452325));
-TEST_ASSERT_EQUAL(-1,reg_status(524358252357));
-TEST_ASSERT_EQUAL(0,reg_status(000000000000));
-TEST_ASSERT_EQUAL(-1,reg_status(000000000001));
+TEST_ASSERT_EQUAL_INT(-1,reg_status(123412341234));
+TEST_ASSERT_EQUAL_INT(-1,reg_status(97654321023));
+TEST_ASSERT_EQUAL_INT(-1,reg_status(756812452325));
+TEST_ASSERT_EQUAL_INT(-1,reg_status(524358252357));
+TEST_ASSERT_EQUAL_INT(0,reg_status(000000000000));
+TEST_ASSERT_EQUAL_INT(-1,reg_status(000000000001));
 }
 void test_vacc_status(void)
 {
 
-TEST_ASSERT_EQUAL(1,vacc_status(0));
-TEST_ASSERT_EQUAL(1,vacc_status(2));
-TEST_ASSERT_EQUAL(1,vacc_status(3));
-TEST_ASSERT_EQUAL(1,vacc_status(4));
-TEST_ASSERT_EQUAL(1,vacc_status(5));
+TEST_ASSERT_EQUAL_INT(1,vacc_status(0));
+TEST_ASSERT_EQUAL_INT(1,vacc_status(2));
+TEST_ASSERT_EQUAL_INT(1,vacc_status(3));
+TEST_ASSERT_EQUAL_INT(1,vacc_status(4));
+TEST_ASSERT_EQUAL_INT(1,vacc_status(5));
 
 }
 
 void test_covaxin_vacc_viles(void)
 {
-TEST_ASSERT_EQUAL(3,covaxin_vacc_viles(1,1));
-TEST_ASSERT_EQUAL(3,covaxin_vacc_viles(1,2));
-TEST_ASSERT_EQUAL(2,covaxin_vacc_viles(2,2));
-TEST_ASSERT_EQUAL(2,covaxin_vacc_viles(1,3));
+TEST_ASSERT_EQUAL_INT(3,covaxin_vacc_viles(1,1));
+TEST_ASSERT_EQUAL_INT(3,covaxin_vacc_viles(1,2));
+TEST_ASSERT_EQUAL_INT(2,covaxin_vacc_viles(2,2));
+TEST_ASSERT_EQUAL_INT(2,covaxin_vacc_viles(1,3));
 }
 
 void test_covishield_vacc_viles(void)
 {
-TEST_ASSERT_EQUAL(1,covishield_vacc_viles(1,1));
-TEST_ASSERT_EQUAL(1,covishield_vacc_viles(1,2));
-TEST_ASSERT_EQUAL(3,covishield_vacc_viles(2,2));
-TEST_ASSERT_EQUAL(3,covishield_vacc_viles(1,3));
+TEST_ASSERT_EQUAL_INT(1,covishield_vacc_viles(1,1));
+TEST_ASSERT_EQUAL_INT(1,covishield_vacc_viles(1,2));
+TEST_ASSERT_EQUAL_INT(3,covishield_vacc_viles(2,2));
+TEST_ASSERT_EQUAL_INT(3,covishield_vacc_viles(1,3));
 }
 
 void test_sputnik_vacc_viles(void)
 {
-TEST_ASSERT_EQUAL(2,sputnik_vacc_viles(1,1));
-TEST_ASSERT_EQUAL(2,sputnik_vacc_viles(1,2));
-TEST_ASSERT_EQUAL(4,sputnik_vacc_viles(2,2));
-TEST_ASSERT_EQUAL(4,sputnik_vacc_viles(1,3));
+TEST_ASSERT_EQUAL_INT(2,sputnik_vacc_viles(1,1));
+TEST_ASSERT_EQUAL_INT(2,sputnik_vacc_viles(1,2));
+TEST_ASSERT_EQUAL_INT(4,sputnik_vacc_viles(2,2));
+TEST_ASSERT_EQUAL_INT(4,sputnik_vacc_viles(1,3));
 }
 int main()
 {
