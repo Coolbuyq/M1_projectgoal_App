@@ -28,7 +28,7 @@ while(attempt>0){
 	printf("Details for registration\n");
     pd[i].adhaar_no=pd[0].adhaar_no;
 	printf("Enter your phone number:\n");
-	scanf("%lu",&pd[i].phone_no);
+	scanf("%li",&pd[i].phone_no);
 	printf("Enter your age:\n");
 	scanf("%d",&pd[i].age);
 	printf("Enter your otp:\n");
