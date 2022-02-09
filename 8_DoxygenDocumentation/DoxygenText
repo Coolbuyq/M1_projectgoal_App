@@ -1,7 +1,7 @@
 Header file for Vaccination Registration with structure and array initialisation. More...
 
 #include <stdio.h>
-Go to the source code of this file.
+ Go to the source code of this file.
 
 Data Structures
 struct  	person
