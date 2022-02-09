@@ -1,7 +1,12 @@
 
-PROJ_NAME = project.c
+PROJ_NAME = project
 SRC= src/main.c\
-src/project.c
+src/project.c\
+
+
+TEST_SRC=src/project.c\
+src/Test_project.c\
+unity/unity.c
 
 ifdef OS
    RM = del /q
@@ -16,12 +21,20 @@ else
 endif
 
 INC=-Iinclude\
+-Iunity\
 
-Build : $(SRC)
+Build : $(SRC) 
 	gcc $(SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
 
-Run : Build
+
+build_test : 
+	gcc $(TEST_SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
+
+run : 
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
+
 
 Clean:
 	$(RM) $(call FixPath,*.out)
+
+

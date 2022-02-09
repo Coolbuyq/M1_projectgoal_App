@@ -1,10 +1,7 @@
 #include "project.h"
-
 #include "unity.h"
 
-void setUp(){
-  
-}
+void setUp(){}
 void tearDown(){}
 
 
