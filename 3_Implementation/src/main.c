@@ -1,4 +1,21 @@
+ @subpage Vaccination Registration Application by "Manjunadh"
+/**
+ * @file main.c
+ * @author your name (you@domain.com)
+ * @brief 
+ * @version 0.1
+ * @date 2022-02-09
+ * 
+ * @copyright Copyright (c) 2022
+ * 
+ */
 #include "project.h"
+/**
+ * @brief Performs different operations and calls functions
+ * Takes different return values from functions
+ * Give outpu accordingly by validating the return valus from functions
+ * @return int 
+ */
 int main()
 {
 	int details,attempt=2000,j,count=0,vaccstat=0;
