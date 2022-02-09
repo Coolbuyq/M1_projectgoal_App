@@ -18,3 +18,9 @@
  * Low Level UML Use Case Structural Diagram:
     
   ![Low_level_UML Usecase](https://user-images.githubusercontent.com/94365143/153154654-a0117bdb-7e63-42ce-b9a8-cc7a85a3894f.png)
+
+# Best Methods Followed
+* Exact Mapping of code to avoid confusions
+* Mentioning of both High level and Low level Behavioral and structural diagrams for better understanding
+* Followed the exact symbols to make the understanding easier
+* Detailed explanation in Low level Behavioural and Structural Diagrams
