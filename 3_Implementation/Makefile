@@ -1,7 +1,6 @@
 
 PROJ_NAME = project.c
-SRC = project.c main.c 
-
+SRC= main.c project.c
 ifdef OS
    RM = del /q
    FixPath = $(subst /,\,$1)
@@ -14,9 +13,11 @@ else
    endif
 endif
 
-build : project.c main.c 
-	gcc main.c project.c -lm -o project.out
-run : build
-	./project.out
-clean :
-	rm -rf *.o *.out *.i *.s
+Build : $(SRC)
+	gcc $(SRC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
+
+Run : Build
+	./$(call FixPath,$(PROJ_NAME).$(EXEC))
+
+Clean:
+	$(RM) $(call FixPath,*.out)
