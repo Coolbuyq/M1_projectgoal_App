@@ -9,7 +9,7 @@
  # Structural Diagram
  
  * High Level UML Use Case Structural Diagram:
- ![High_level_flowchart](https://user-images.githubusercontent.com/94365143/153154672-5f7f17ac-f0bc-4951-af76-751304fbeb4c.png)
+ * ![High_level_flowchart](https://user-images.githubusercontent.com/94365143/153154672-5f7f17ac-f0bc-4951-af76-751304fbeb4c.png)
  
  * Low Level UML Use Case Structural Diagram:
  ![Low_level_flowchart](https://user-images.githubusercontent.com/94365143/153154710-cc455047-83bf-45bb-90e5-78d02b21c660.png)
