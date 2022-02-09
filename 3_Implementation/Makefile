@@ -34,7 +34,6 @@ build_test :
 run : 
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
-
 Clean:
 	$(RM) $(call FixPath,*.out)
 
