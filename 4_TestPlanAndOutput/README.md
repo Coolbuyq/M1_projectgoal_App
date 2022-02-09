@@ -52,6 +52,7 @@
 | 04 | Covishield vaccination viles |{1,1}(ID,VaccStat) | 1 | 1 Viles used |
 | 05 | Covishield vaccination viles |{1,2}(ID,VaccStat) | 2 | 2 Viles used|
 | 06 | Sputnik vaccination vile | {1,1}(ID,VaccStat) | 1 | 1 Vile used |
+
 ### Best Practices
   *  [x] Checked all the possibilities of output
   *  [x] Mentioned all the inputs for better understanding
