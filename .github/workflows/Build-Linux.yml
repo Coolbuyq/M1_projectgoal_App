@@ -16,5 +16,5 @@ jobs:
     - name: configure
       run: ./configure
     - name: make
-      run: make Run 3_Implementation
+      run: make run 3_Implementation
 
