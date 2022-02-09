@@ -21,7 +21,7 @@ else
 endif
 
  
-INC=-Iinclude\
+INC=-IInclude\
 -Iunity\
 
 Build : $(SRC) 
