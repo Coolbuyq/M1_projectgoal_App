@@ -31,8 +31,12 @@ Build : $(SRC)
 build_test : 
 	gcc $(TEST_SRC) $(INC) -o $(call FixPath,$(PROJ_NAME).$(EXEC)) -lm
 
-run : 
+run : Build
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
+
+run_test : build_test
+	./$(call FixPath,$(PROJ_NAME).$(EXEC))
+
 
 Clean:
 	$(RM) $(call FixPath,*.out)
