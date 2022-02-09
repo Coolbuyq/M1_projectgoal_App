@@ -1,6 +1,6 @@
-##Doxygen File
+## Doxygen File
 
-#NOTE
+# NOTE
 * As the document is present in html and cant be given in form of file Screenshots have beeen provided along with HTML link:
  file:///F:/M1_ProjectGoal_Application/Project_Doxygenfiles/documentation/html/project_8h.html
 ![Doxy_ss1](https://user-images.githubusercontent.com/94365143/153280736-cdcc35c8-558d-4bb7-9468-e41cd30056d9.png)
