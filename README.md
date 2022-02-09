@@ -9,17 +9,21 @@
 |[![C/C++ CI](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/c-cpp.yml)|[![Unit Testing - Unity](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/unity.yml/badge.svg)](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/unity.yml)|[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a1edf2417a2e46699e8245f518c674f4)](https://app.codacy.com/organizations/gh/praveenraj2001/repositories)
 
 ## Goal
-* Simple user interface
-* Improved accuracy of the result
+* Friendly user interface
+* Correct data should be provided as output
+* Operation of registration and verification is localized
 
 ## Input
-* Choose which option needs to be selected for different operations
-* input different values for different operations 
+* Aadhar number,Phone number,Age and OTP for new patients
+* Aadhar numar and Phone number for Confirmation for already Registered patients
 
 ## Process
-* Display mathematical branches available
-* Display different options under the selected branch
-* Calculate the data and result
+* New registraion for vaccination is done for every unique entry of Aadhar Number
+* Verification is done with Pre-regitered patients and vaccination is done accordingly
+* Vaccination Status is updated for each and every entry.
+* Total number of vaccine vials consumed of Covaxin,Covishield and Sputnik Vaccines is caluclated
+
 
 ## Output
-* Return/display the calculated values
+* Vaccinated data log is updated and new registrations are added to the end of the pre data list
+* List of vaccinated patients along with total individual vials consumed is printed
