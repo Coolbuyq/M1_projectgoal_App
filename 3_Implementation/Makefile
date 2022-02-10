@@ -40,4 +40,4 @@ run_test : build_test
 
 
 Clean:
-$(RM) $(call FixPath,*.out)
+	$(RM) $(call FixPath,*.out)
