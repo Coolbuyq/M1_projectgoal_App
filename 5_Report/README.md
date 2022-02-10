@@ -22,6 +22,6 @@
  #### * Documentation is also done for the project with Doxygen
  #### * All Codacy, Codiga, Unity, Dynamic Check, Static Check, Linux build is done
 
- #### * Implementation is done and the file runs succesfully**
+ #### * Implementation is done and the file runs succesfully
 
-#### * The Architecture  (Behavioural, Structural) both high and low level is also created**
+#### * The Architecture  (Behavioural, Structural) both high and low level is also created
