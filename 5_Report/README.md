@@ -8,13 +8,13 @@
  * **Test** The Application I created is well tested with different inputs
  ---
  
- ##Problems Attained
+ ## Problems Attained
   * For creating a large database.
   * To get updated with vaccination status and update the other values in database accordingly
   * To know whether phone number is existing in previous database or not after confirming with Aadhar number. 
   If entered wrong it should ask again to enter the Phone number until it is matched
   
- ##Solutions Attianed
+ ## Solutions Attianed
   * Initialised a global array with structure implementation
   * Stored the values in global array of structures and checked it with loops
   * Used go to statements for implementation of problem 3
