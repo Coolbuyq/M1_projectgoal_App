@@ -1,0 +1,110 @@
+        -:    0:Source:src/project.c
+        -:    0:Graph:./project.gcno
+        -:    0:Data:-
+        -:    0:Runs:0
+        -:    1:
+        -:    2:#include "project.h"
+    #####:    3:int reg_status(long a){
+    #####:    4:	pd[0].adhaar_no=a;
+    #####:    5:	int i=1;
+    #####:    6:	while(i<2000){
+    %%%%%:    6-block  0
+    %%%%%:    6-block  1
+    #####:    7:	if(pd[i].adhaar_no==pd[0].adhaar_no)
+    %%%%%:    7-block  0
+    #####:    8:	{if(pd[i].vaccination_type==0)
+    %%%%%:    8-block  0
+    #####:    9:	return 0;
+    %%%%%:    9-block  0
+        -:   10:	else
+    #####:   11:	{return 1;
+    %%%%%:   11-block  0
+        -:   12:
+        -:   13:	}
+        -:   14:	}
+    #####:   15:	i++;}
+    %%%%%:   15-block  0
+    #####:   16:	return -1; 
+    %%%%%:   16-block  0
+        -:   17:	}
+        -:   18:
+    #####:   19:int reg()
+    #####:   20:{pd[1].adhaar_no=19191911919;
+    #####:   21:pd[1].phone_no=1919919191919;
+    #####:   22:pd[1].age=1;
+    #####:   23:pd[1].otp=1;
+    #####:   24:pd[1].vaccination_type=1;
+    #####:   25:pd[1].vaccination_status=10;
+    #####:   26:return 0;
+    %%%%%:   26-block  0
+        -:   27:}
+        -:   28:
+    #####:   29:int vacc_status(int j)
+        -:   30:{
+    #####:   31:{if(pd[j].vaccination_status==0)
+    %%%%%:   31-block  0
+    #####:   32:{pd[j].vaccination_status++;
+    #####:   33:return 1;
+    %%%%%:   33-block  0
+        -:   34:}
+    #####:   35:else if(pd[j].vaccination_status==1)
+    %%%%%:   35-block  0
+    #####:   36:{pd[j].vaccination_status++;
+    #####:   37:return 2;
+    %%%%%:   37-block  0
+        -:   38:}
+    #####:   39:else if(pd[j].vaccination_status==2)
+    %%%%%:   39-block  0
+        -:   40:{
+    #####:   41:return 3;
+    %%%%%:   41-block  0
+        -:   42:}
+        -:   43:else 
+    #####:   44:return 0;
+    %%%%%:   44-block  0
+        -:   45:}}
+        -:   46:
+        -:   47:
+    #####:   48:int covaxin_vacc_viles(int i, int vstat)
+    #####:   49:{   pd[1].vaccination_type=1;
+    #####:   50: if(pd[i].vaccination_type==1 && (vstat==1 || vstat==2))
+    %%%%%:   50-block  0
+    %%%%%:   50-block  1
+    %%%%%:   50-block  2
+    #####:   51:      {  pd[i].vaccine_viles1++;
+    #####:   52:		return 3;
+    %%%%%:   52-block  0
+        -:   53:		}
+    #####:   54:		return 2;}
+    %%%%%:   54-block  0
+        -:   55:
+    #####:   56:int covishield_vacc_viles(int i, int vstat)	
+    #####:   57:   {  pd[1].vaccination_type=2;
+    #####:   58:	  if(pd[i].vaccination_type==2 && (vstat==1 || vstat==2))
+    %%%%%:   58-block  0
+    %%%%%:   58-block  1
+    %%%%%:   58-block  2
+    #####:   59:        {pd[i].vaccine_viles2++;	
+    #####:   60:		return 1;}
+    %%%%%:   60-block  0
+    #####:   61:		return 3;}
+    %%%%%:   61-block  0
+        -:   62:
+    #####:   63:int sputnik_vacc_viles(int i, int vstat)	
+    #####:   64:   {  pd[1].vaccination_type=3;
+    #####:   65:	  if(pd[i].vaccination_type==3 && (vstat==1 || vstat==2))
+    %%%%%:   65-block  0
+    %%%%%:   65-block  1
+    %%%%%:   65-block  2
+    #####:   66:    	{pd[i].vaccine_viles3++;	
+    #####:   67:		return 2;
+    %%%%%:   67-block  0
+        -:   68:			}
+    #####:   69:			return 4;}	
+    %%%%%:   69-block  0
+        -:   70:
+        -:   71:
+        -:   72:	
+        -:   73:	
+        -:   74:	
+        -:   75:
