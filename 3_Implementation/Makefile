@@ -37,8 +37,8 @@ run : Build
 run_test : build_test
 	./$(call FixPath,$(PROJ_NAME).$(EXEC))
 
+static_analysis:
+   cppcheck --enable=all -iunity 
 
 Clean:
-	$(RM) $(call FixPath,*.out)
-
-
+$(RM) $(call FixPath,*.out)
