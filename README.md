@@ -4,7 +4,7 @@
  * This Project is an Engineering Calculator and which is extremely useful to students and will save them time while doing some complex calculations 
  
 ## About the code
-| Codacy Codiga | Build | Unity | Code Inspector | Codacy |
+| Linux Build | Build | Unity | Code Inspector | Codacy |
 | --- | --- | --- | --- | --- |
 [![Build-Linux](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/Build-linux.yml/badge.svg)](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/Build-linux.yml)|![C/C++ CI](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/c-cpp.yml/badge.svg)|![Unit Testing - Unity](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/unity.yml/badge.svg)|![Codiga](https://api.codiga.io/project/30941/status/svg) ![Codiga](https://api.codiga.io/project/30941/score/svg)|![Codacy Badge](https://api.codacy.com/project/badge/Grade/a1edf2417a2e46699e8245f518c674f4)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/276175cb0cd04b90afc55d3aaf9a84da)](https://www.codacy.com/gh/Manjunadh521/M1_ProjectGoal_App/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Manjunadh521/M1_ProjectGoal_App&amp;utm_campaign=Badge_Grade)](https://www.codacy.com/gh/Manjunadh521/M1_ProjectGoal_App/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Manjunadh521/M1_ProjectGoal_App&amp;utm_campaign=Badge_Grade)
 
