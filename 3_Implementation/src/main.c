@@ -3,7 +3,7 @@
 
 int main()
 {
-	int attempt=2000,j,count=0,vaccstat=0;
+	int details,attempt=2000,j,count=0,vaccstat=0;
 		int result1=0,result2=0,result3=0,z=0;
 		reg();
 	long a;
