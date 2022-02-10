@@ -6,7 +6,7 @@
 ## About the code
 | Linux Build | Build | Unity | Code Inspector | Codacy | Cpp check |
 | --- | --- | --- | --- | --- | --- |
-[![Build-Linux](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/Build-linux.yml/badge.svg)](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/Build-linux.yml)|![C/C++ CI](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/c-cpp.yml/badge.svg)|![Unit Testing - Unity](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/unity.yml/badge.svg)|![Codiga](https://api.codiga.io/project/30941/status/svg) ![Codiga](https://api.codiga.io/project/30941/score/svg)|![Codacy Badge](https://api.codacy.com/project/badge/Grade/a1edf2417a2e46699e8245f518c674f4)
+[![Build-Linux](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/Build-linux.yml/badge.svg)](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/Build-linux.yml)|![C/C++ CI](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/c-cpp.yml/badge.svg)|![Unit Testing - Unity](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/unity.yml/badge.svg)|![Codiga](https://api.codiga.io/project/30941/status/svg) ![Codiga](https://api.codiga.io/project/30941/score/svg)|![Codacy Badge](https://api.codacy.com/project/badge/Grade/a1edf2417a2e46699e8245f518c674f4)|[![Cppcheck](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/Static-check.yml/badge.svg)](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/Static-check.yml)
 * Friendly user interface
 * Correct data should be provided as output
 * Operation of registration and verification is localized
