@@ -39,10 +39,11 @@ while(attempt>0){
 	i++;}
 	goto fresh;
 	}	
-	else if (status==0)
+	else if (status==0) 
 	{long ph;
 	preph:
 	printf("Enter your phone no to confirm your identification :");
+	
 	scanf("%li",&ph);
 	 if(ph==pd[j].phone_no)
 	  {
