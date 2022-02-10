@@ -6,8 +6,7 @@
 ## About the code
 | Codacy Codiga | CI | Unity | Code Inspector |
 | --- | --- | --- | --- |
-
-
+[![Build-Linux](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/Build-linux.yml/badge.svg)](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/Build-linux.yml)
 
 ## Goal
 * Friendly user interface
