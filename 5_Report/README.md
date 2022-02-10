@@ -14,13 +14,13 @@
   * To know whether phone number is existing in previous database or not after confirming with Aadhar number. 
   If entered wrong it should ask again to enter the Phone number until it is matched
   
- ## Solutions Attianed
+ ## Solutions Attained
   * Initialised a global array with structure implementation
   * Stored the values in global array of structures and checked it with loops
   * Used go to statements for implementation of problem 3
   
- * Documentation is also done for the project with Doxygen
- * All Codacy, Codiga, Unity, Dynamic Check, Static Check, Linux build is done
+ # Documentation is also done for the project with Doxygen
+ # All Codacy, Codiga, Unity, Dynamic Check, Static Check, Linux build is done
 
  #### **Implementation is done and the file runs succesfully**
 
