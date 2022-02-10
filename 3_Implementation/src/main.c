@@ -1,12 +1,10 @@
 
-
 #include "project.h"
 
 int main()
 {
 	int details,attempt=2000,j,count=0,vaccstat=0;
-		int result1=0,result2=0,result3=0;
-		int v1=0,v2=0,v3=0;
+		int result1=0,result2=0,result3=0,z=0;
 		reg();
 	long a;
 while(attempt>0){
@@ -74,7 +72,8 @@ while(attempt>0){
 	 }}}
 	 else
 	 {printf("Wrong details.Re enter again\n");
-	 goto preph;}}	 
+	 if(z<2000){z++;
+	 goto preph;}}}	 
 	else
 	 {long ph1;
 	 predose2:
@@ -85,8 +84,9 @@ while(attempt>0){
 	 goto dose2;
 	else
 	 {printf("Wrong details.Re enter again\n");
+	 if(z<2000){z++;
 	 goto predose2;}
-	 }
+	 }}
 	 dose2:	
 	vaccstat=vacc_status(j);
 	if(vaccstat==1)
@@ -143,3 +143,4 @@ while(attempt>0){
     printf("SPUTNIK:%d\n",result3);
    	}
 	
+
