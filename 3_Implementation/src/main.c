@@ -88,6 +88,7 @@ while(attempt>0){
 	 goto predose2;}
 	 }}
 	 dose2:	
+	 
 	vaccstat=vacc_status(j);
 	if(vaccstat==1)
 	{   if(pd[j].vaccination_type==0||pd[j].vaccination_type==1||pd[j].vaccination_type==2)
