@@ -6,9 +6,7 @@
 ## About the code
 | Codacy Codiga | CI | Unity | Code Inspector |
 | --- | --- | --- | --- |
-[![Build-Linux](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/Build-linux.yml/badge.svg)](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/Build-linux.yml)|[![C/C++ CI](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/c-cpp.yml)|[![Unit Testing - Unity](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/unity.yml/badge.svg)]https://api.codiga.io/project/30941/score/svg|https://api.codiga.io/project/30941/score/svg
-
-## Goal
+[![Build-Linux](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/Build-linux.yml/badge.svg)](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/Build-linux.yml)|[![C/C++ CI](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/c-cpp.yml/badge.svg)](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/c-cpp.yml)|[![Unit Testing - Unity](https://github.com/Manjunadh521/M1_ProjectGoal_App/actions/workflows/unity.yml/badge.svg)
 * Friendly user interface
 * Correct data should be provided as output
 * Operation of registration and verification is localized
