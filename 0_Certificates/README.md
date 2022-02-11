@@ -14,4 +14,4 @@
    
    * SS of 1000 Points in peer Review
 
-   ![Hacker_Earth_Points](https://user-images.githubusercontent.com/94365143/153505648-8b0db1d5-925f-4a99-83ad-3d73e0ce2a97.png)
+  ![Hacker_Earth_Points](https://user-images.githubusercontent.com/94365143/153547523-7734a817-0e97-4c3a-9cb2-2bd409c6b032.png)
